@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import About from '../components/About.svelte';
+	import Navbar from '../components/Navbar.svelte';
+	import Projects from '../components/Projects.svelte';
+</script>
+
+<div class="max-w-4xl m-auto px-8">
+	<Navbar />
+	<About />
+</div>
+
+<Projects />
+
+<div class="flex justify-center p-8">
+	<p class="text-xs text-[#628E90]">made by Farel Lukas</p>
+</div>
