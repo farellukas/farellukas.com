@@ -4,8 +4,7 @@
 	import Projects from '../components/Projects.svelte';
 </script>
 
-<div class="max-w-4xl m-auto px-8">
-	<Navbar />
+<div class="max-w-4xl mb-16 m-auto px-8">
 	<About />
 </div>
 
