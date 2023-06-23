@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <nav class="flex items-center flex-col gap-2 py-8 sm:justify-between sm:flex-row sm:gap-0">
 	<a href="/" class=""><h4>farel lukas</h4></a>
 	<div class="flex gap-8">
