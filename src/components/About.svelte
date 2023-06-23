@@ -68,7 +68,7 @@
 	];
 </script>
 
-<section id="about" class="flex flex-col gap-12">
+<section id="about" class="flex flex-col gap-12 mb-16">
 	<div class="flex flex-col gap-4">
 		<h5>👋 get to know about me.</h5>
 		<p>
