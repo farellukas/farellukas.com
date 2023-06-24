@@ -5,4 +5,4 @@
 </script>
 
 <About />
-<Projects />
+<!-- <Projects /> -->

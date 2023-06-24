@@ -30,7 +30,7 @@
 
 <slot />
 
-<div class="max-w-4xl m-auto px-8">
+<div>
 	{#each years as year}
 		<div class="mb-4">
 			<h4 class="mb-2">{year}</h4>

@@ -68,7 +68,7 @@
 	];
 </script>
 
-<section id="about" class="flex flex-col gap-12 mb-16">
+<div id="about" class="flex flex-col gap-12 flex-1">
 	<div class="flex flex-col gap-4">
 		<h5>👋 get to know about me.</h5>
 		<p>
@@ -119,4 +119,4 @@
 			{/each}
 		</div>
 	</div>
-</section>
+</div>
