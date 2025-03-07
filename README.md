@@ -1,38 +1,64 @@
-# create-svelte
+![Astro Nano](_astro_nano.png)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
 
-## Creating a project
+Built with Astro, Tailwind and Typescript, an no frameworks.
 
-If you're seeing this, you've probably already done this step. Congrats!
+It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 🚀 Deploy your own
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano)
 
-## Developing
+## 📋 Features
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- ✅ 100/100 Lighthouse performance
+- ✅ Responsive
+- ✅ Accessible
+- ✅ SEO-friendly
+- ✅ Typesafe
+- ✅ Minimal style
+- ✅ Light/Dark Theme
+- ✅ Animated UI
+- ✅ Tailwind styling
+- ✅ Auto generated sitemap
+- ✅ Auto generated RSS Feed
+- ✅ Markdown support
+- ✅ MDX Support (components in your markdown)
 
-```bash
-npm run dev
+## 💯 Lighthouse score
+![Astro Nano Lighthouse Score](_lighthouse.png)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## 🕊️ Lightweight
+No frameworks or added bulk
 
-## Building
+## ⚡︎ Fast
+Rendered in ~40ms on localhost
 
-To create a production version of your app:
+## 📄 Configuration
 
-```bash
-npm run build
-```
+The blog posts on the demo serve as the documentation and configuration.
 
-You can preview the production build with `npm run preview`.
+## 💻 Commands
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+All commands are run from the root of the project, from a terminal:
+
+Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run dev:network`     | Starts local dev server on local network         |
+| `npm run sync`            | Generates TypeScript types for all Astro modules.|
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run preview:network` | Preview build on local network                   |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run lint`            | Run ESLint                                       |
+| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+
+## 🏛️ License
+
+MIT
