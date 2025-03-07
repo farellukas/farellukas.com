@@ -1,7 +1,7 @@
 ---
 title: "Hello, World!"
 description: "My first blog post."
-date: "03/06/2025"
+date: "Mar 6 2025"
 draft: false
 ---
 
